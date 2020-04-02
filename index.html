@@ -9,15 +9,23 @@
 <body>
 
 <!--navbar-->
-<nav>
-	<!--logo-->
-	<img width="230" src="images/logo.png">
-	<ul>
-		<li><a href="#Contact">Contact</a> </li>
-		<li><a href="#Portfolio">Portfolio</a></li>
-		<li><a href="#About">About</a></li>
-	</ul>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="scroll-behavior: smooth;">
+  <img class="navbar-brand" href="#" src="images/logoB.png" style="width: 200px">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#hero">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#About">About</a>
+      <a class="nav-item nav-link" href="#Portfolio">Portfolio</a>
+      <a class="nav-item nav-link" href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
+
+    </div>
+  </div>
 </nav>
+
 <div id="nobody"></div>
 
 <section id="hero">
@@ -53,19 +61,19 @@
 
 <section id="Contact">
 	<h2>Contact</h2>
-	<div id="isi">
-		<div id="email">
+	<div class="container">
+		<div class="row">
+		<div class="col">
 		<img src="https://image.flaticon.com/icons/svg/281/281769.svg" width="50"><p>qoisoctava@mail.ugm.ac.id</p>
 	</div>
-		<div id="instagram">
+		<div class="col">
 		<img src="https://image.flaticon.com/icons/svg/2111/2111463.svg" width="50"><p>@mqois16</p>
 	</div>
-	<div id="snapwire">
+	<div class="col">
 		<img src="https://images-na.ssl-images-amazon.com/images/I/51Bmzfmvq%2BL._SY355_.png" width="50"><p>qois octava</p>
 	</div>
+	
 	</div>
-		
-</div>
 	
 </section>
 <section id="Footer">
