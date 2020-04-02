@@ -1,0 +1,125 @@
+/* Author : Qois Huzyan;
+   Type : CSS;
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+nav img{
+
+}
+nav{
+	width: 100%;
+	height: 50px;
+	padding: 0 1rem; /*1rem=16px*/
+	background-color: grey;
+	color: white;
+	position: fixed;
+	scroll-behavior: smooth;
+}
+ul{
+	margin: 0;
+	padding-top: 4;
+	float: right;
+	padding-right: 35;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 8px;
+	padding-top: 16px;
+	float: right;
+	padding-right: 35px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+section {
+	padding: 40px;
+
+}
+
+#hero {
+	display: flex;
+	padding-bottom: unset;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+#info {
+	width: 50%;
+	padding-right: 25;
+	line-height: 24px;
+	color: black;
+	font-size: 20px;
+
+}
+
+#images{
+	width: 50%;
+
+}
+
+#images img{
+	width: 300px;
+	float: right;
+}
+
+#About {
+	background-color: black;
+	color: white;
+}
+#About p{
+font-size: 20px;
+}
+#Contact{
+	background-color: black;
+	color: white;
+}
+#nobody{
+	height: 50px;
+}
+#Portfolio img{
+	width: 300px;
+	padding: 20px;
+	padding-bottom: unset;
+}
+#Footer {
+	color: white;
+	background-color: grey;
+}
+#email {
+	
+	width: 30%;
+}
+#email img{
+	padding-left: 70px;
+}
+#instagram {
+	width: 30%;
+	text-decoration: none;
+	color: white;
+}
+#instagram img{
+	padding-left: 10px;
+	text-decoration: none;
+}
+#snapwire {
+	width: 30%;
+	text-decoration: none;
+	color: white;
+}
+#snapwire img{
+	padding-left: 10px;
+	text-decoration: none;
+}
+#isi {
+	align-content: center;
+	display: flex;
+	padding-left: 200;
+
+}
